@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title><%= title %></title>
+    <link rel="stylesheet" href="stylesheets/style.css" />
+  </head>
+  <body>
+    <%- include('./partials/nav.ejs') %>
+    <h1>Make a log!</h1>
+    <form action="/" method="post" class="create">
+      <label>Title</label>
+      <input type="text" required name="title" />
+      <label>Body</label>
+      <textarea type="text" required name="body"></textarea>
+      <button>Submit</button>
+    </form>
+  </body>
+</html>

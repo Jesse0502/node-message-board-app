@@ -1,0 +1,86 @@
+body {
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.hero {
+  padding: 20px 20px;
+}
+
+.logs {
+  padding: 10px 40px;
+  width: 20%;
+  border: 2px solid black;
+  margin: 20px 50px;
+  background-color: rgb(190, 190, 190);
+}
+
+.log-wrapper {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.log p:last-child {
+  color: rgb(82, 82, 82);
+}
+
+.create {
+  display: flex;
+  justify-content: center;
+  padding: 20px 30px;
+  flex-direction: column;
+  width: 20%;
+}
+
+.create label {
+  font-size: 1.2em;
+}
+
+.create input {
+  height: 30px;
+}
+
+.create button {
+  margin-top: 10px;
+  height: 40px;
+  width: 30%;
+}
+
+.nav {
+  background-color: black;
+  padding: 20px 10px;
+}
+
+.nav a {
+  padding: 0px 10px;
+  text-decoration: none;
+  font-size: large;
+  color: white;
+}
+
+.nav a:hover {
+  text-decoration: underline;
+}
+
+.addlog {
+  padding: 10px 40px;
+  width: 20%;
+  border: 2px solid black;
+  margin: 20px 50px;
+  display: flex;
+  justify-content: center;
+  background-color: rgba(190, 190, 190, 0.616);
+  max-height: 170px;
+}
+.addlog a {
+  text-decoration: none;
+  color: rgba(0, 0, 0, 0.425);
+  font-size: 7em;
+  display: flex;
+}
+
+.addlog a:hover {
+  color: black;
+}
